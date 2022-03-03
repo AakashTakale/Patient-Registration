@@ -1,0 +1,34 @@
+table {
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 auto;
+    position: relative;
+    background-color: #fff;
+}
+
+.thead-style {
+    height: 50px;
+    background: #36304a;
+}
+
+.thead-style th {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.2;
+    letter-spacing: 1px;
+}
+
+.tbody-style tr {
+    font-size: 1rem;
+    line-height: 1.2;
+    font-weight: unset;
+}
+
+.no-appointments{
+    text-align: center;
+    letter-spacing: 1px;
+    font-size: 1rem;
+    font-weight: 500;
+}
