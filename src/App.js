@@ -8,7 +8,7 @@ import {
 function App() {
   return (
     <div className="container">
-        <h3>Welcome to the Patient Registration</h3>
+        <h3>Welcome to the Patient Registration Website</h3>
       <nav>
         <Link to="/doctor" className="btn doctor-link">Doctor</Link>
         <Link to="/patient" className="btn patient-link">Patient</Link>
