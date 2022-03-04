@@ -15,7 +15,9 @@ const Doctor = () => {
     }, [])
 
     const fetchPatients = async () => {
-        const res = await fetch('http://localhost:5000/patients')
+//         const url = 'http://localhost:5000/patients'
+        const url = 'https://my-json-server.typicode.com/AakashTakale/patient-registration/patients'
+        const res = await fetch(url)
         const data = await res.json()
 
         return data
